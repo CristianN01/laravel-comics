@@ -11,7 +11,7 @@
                         <ul>
                             @foreach ($navComics as $link)
                                 <li class="{{$link['active']? 'active' : ''}}">
-                                    {{ $link['name'] }}
+                                    <a href="\">{{ $link['name'] }}</a>
                                 </li>
                             @endforeach
                         </ul>

@@ -17,52 +17,52 @@ Route::get('/', function () {
     $navComics = [
         [
             "id" => 1,
-            "name" => 'Characters',
+            "name" => 'CHARACTERS',
             "active" => false,
         ],
         [
             "id" => 2,
-            "name" => 'comics',
+            "name" => 'COMICS',
             "active" => true,
         ],
         [
             "id" => 3,
-            "name" => 'movies',
+            "name" => 'MOVIES',
             "active" => false,
         ],
         [
             "id" => 4,
-            "name" => 'tv',
+            "name" => 'TV',
             "active" => false,
         ],
         [
             "id" => 5,
-            "name" => 'games',
+            "name" => 'GAMES',
             "active" => false,
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'COLLECTIBITES',
             "active" => false,
         ],
         [
             "id" => 7,
-            "name" => 'videos',
+            "name" => 'VIDEOS',
             "active" => false,
         ],
         [
             "id" => 8,
-            "name" => 'fans',
+            "name" => 'FANS',
             "active" => false,
         ],
         [
             "id" => 9,
-            "name" => 'news',
+            "name" => 'NEWS',
             "active" => false,
         ],
         [
             "id" => 10,
-            "name" => 'shop',
+            "name" => 'SHOP',
             "active" => false,
         ],
     ];
