@@ -1,4 +1,4 @@
-<header>
+<header id="header-app">
     <section>
         <div class="bg-color-page">
             <div class="width-container">

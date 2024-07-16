@@ -6,65 +6,10 @@ body {
     font-size: 12px;
 }
 
-header {
-    div.bg-color-page {
-        background-color: #ffffff;
-    }
+header#header-app {
+    @import './partials/header';
+}
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-    }
-
-    a {
-        text-decoration: none;
-        color: #4e4e4a;
-    }
-
-    .width-container {
-        max-width: 1700px;
-        display: flex;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-
-
-    img {
-        width: 77%;
-        padding-top: 1rem;
-    }
-
-    .navbar {
-        display: flex;
-        align-items: center;
-        padding-bottom: 0;
-
-
-        ul {
-            display: flex;
-
-            li {
-                padding: 0.75rem;
-                font-weight: 500;
-                padding-top: 3rem;
-
-
-                &.active {
-                    color: #517ef9;
-                    border-bottom: 5px solid #517ef9;
-                    padding-bottom: 3.5rem;
-
-                }
-
-                a{
-                    list-style-type: none;
-                }
-
-                a:hover {
-                    color: #0282f9;
-                }
-
-            }
-        }
-    }
+footer#footer-app {
+    @import './partials/footer';
 }
